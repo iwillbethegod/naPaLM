@@ -23,7 +23,7 @@ def main(args):
         tokenize_function,
         batched=True,
         num_proc=CFG.NUM_CPU,
-        remove_columns=['phase', 'question', 'table', 'sql'],
+        remove_columns=["question"],
     )
 
     block_size = CFG.SEQ_LEN
