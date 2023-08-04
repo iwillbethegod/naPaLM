@@ -31,8 +31,8 @@ from transformers import (AutoTokenizer, default_data_collator,
 
 from palm.stable_adamw import StableAdamWUnfused
 from palm.utils import print_num_params
-from acclerate import Accelerator
-from sccelarte.utils import InitProcessGroupKwargs
+from accelerate import Accelerator
+from accelerate.utils import InitProcessGroupKwargs
 
 # constants
 
